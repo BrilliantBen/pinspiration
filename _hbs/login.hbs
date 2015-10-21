@@ -1,0 +1,180 @@
+<header class="top">
+
+	<nav>
+
+		<div>
+			<div class="logo">
+				<h1><a href=""><span>Be Pinspired</span></a></h1>
+			</div>
+
+			<div class="nav">
+				<ul>
+
+					<li>
+						<div class="center">
+
+
+							<picture>
+								<source media="(min-width: 450px)" srcset="assets/header/fb.jpg">
+									<img src="assets/header/fb_small.jpg" alt="Pinspiration">
+								</picture>
+								<p>Follow us</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</nav>
+	</header>
+
+	<section class="row log">
+		<header>
+			<h1>
+
+				<picture>
+
+					<source media="(min-width: 450px)" srcset="assets/quote/pinspiration_large.png">
+						<img src="assets/quote/pinspiration_small.png" alt="Pinspiration">
+
+					</picture>
+				</h1>
+			</header>
+
+			<h2 class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0">
+				<p>"Pinspiration is my go-to app when starting creative projects!"</p>
+				<aside>- Stranger</aside>
+			</h2>
+
+		</section>
+{{#if online}}
+		<section class="users row">
+
+			<div class="register-login col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0">
+
+
+				<form class="register" action="" method="post" accept-charset="utf-8">
+					<legend>Log in to see your boards.</legend>
+
+					<div>
+						<label for=""></label>
+						<input type="text" placeholder="valid@email.com" name="email" class="email-input-login" value=""/>
+
+					</div>
+
+					<div>
+						<label for=""></label>
+						<input type="password" placeholder="password" name="password" class="password-input-login" value=""/>
+
+					</div>
+					<p class="main-error-login hidden"></p>
+					<div>
+						<input type="submit" class="user-login" value=""/>
+					</div>
+
+				</form>
+			</div>
+
+
+			<div class="register-client col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0">
+
+
+
+				<form class="register" action="" method="post" accept-charset="utf-8">
+					<legend>Sign up and get pinspired.</legend>
+
+					<div>
+						<label for=""></label>
+						<input type="text" name="name" class="name-input-register" placeholder="first and last name"value=""/>
+					</div>
+
+					<div>
+						<label for=""></label>
+						<input type="text" name="email" class="email-input-register" placeholder="valid@email.com" value=""/>
+					</div>
+
+					<div>
+						<label for=""></label>
+						<input type="password" name="password" class="password-input-register" placeholder="password" value=""/>
+					</div>
+					<p class="main-error-register hidden"></p>
+					<div>
+						<input type="submit" class="user-register" value=""/>
+					</div>
+
+				</form>
+							<p class="main-info hidden"></p>
+			</div>
+
+		</section>
+
+		{{else}}
+			<section class="row of_check">
+				<div class="offline col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1"><p>You are currently offline...</p></div>
+			</section>
+	{{/if}}
+		<section class="text {{#if online}}{{else}}off{{/if}} row">
+
+		<div class="wrapper">
+
+			<article class="col-xs-12 col-sm-6 col-md-3">
+
+				<picture>
+				<source media="(min-width: 768px)" srcset="assets/text/1_small.png">
+				<source media="(min-width: 450px)" srcset="assets/text/1_large.png">
+						<img src="assets/text/1_small.png" alt="Pinspiration">
+					</picture>
+					<h1>Users first.</h1>
+					<p>We provide a user-centered service anyone can use.</p>
+
+
+				</article>
+
+			<article class="col-xs-12 col-sm-6 col-md-3">
+
+				<picture>
+				<source media="(min-width: 768px)" srcset="assets/text/2_small.png">
+				<source media="(min-width: 450px)" srcset="assets/text/2_large.png">
+						<img src="assets/text/2_small.png" alt="Pinspiration">
+					</picture>
+					<h1>Inspiration.</h1>
+					<p>We help you fulfill those urges to be inspired. No questions asked.</p>
+
+
+				</article>
+
+		<article class="col-xs-12 col-sm-6 col-md-3">
+
+				<picture>
+				<source media="(min-width: 768px)" srcset="assets/text/3_small.png">
+				<source media="(min-width: 450px)" srcset="assets/text/3_large.png">
+						<img src="assets/text/3_small.png" alt="Pinspiration">
+					</picture>
+					<h1>Responsive.</h1>
+					<p>Wheter you are using a laptop or a phone... We always look good.</p>
+
+
+				</article>
+
+	<article class="col-xs-12 col-sm-6 col-md-3">
+
+				<picture>
+				<source media="(min-width: 768px)" srcset="assets/text/4_small.png">
+				<source media="(min-width: 450px)" srcset="assets/text/4_large.png">
+						<img src="assets/text/4_small.png" alt="Pinspiration">
+					</picture>
+					<h1>Private.</h1>
+					<p>Won't worry about your privacy. We will never make anything public.</p>
+
+
+				</article>
+
+
+</div>
+
+
+			</section>
+
+
+

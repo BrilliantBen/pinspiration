@@ -1,0 +1,134 @@
+.users {
+	transition: 1s;
+	position: relative;;
+	top: 80px;
+}
+.register-client, .register-login {
+
+	margin-left: 5.2vw;
+	margin-bottom: 50px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 1.5px 1.5px 3px 0px rgba(50, 50, 50, 0.50);
+	padding: 20px;
+
+	input:not([type=submit]) {
+		background-color: $gray;
+		border: 0;
+		border-radius: 9px;
+		height: 37px;
+		width: 100%;
+		color: $red;
+		font-family: bitter;
+		font-size: 1.6em;
+		font-weight: bold;
+		padding-left: 60px;
+
+	}
+
+	input[type=submit] {
+		display: inline-block;
+		background-image: url('../assets/register/register.png');
+		border: none;
+		background-color: transparent;
+		width: 88px;
+		height: 25px;
+		float: right;
+	}
+
+	div {
+		margin-top: 20px;
+	}
+
+	div:nth-child(2) {
+
+		label {
+			display: inline-block;
+			background-image: url('../assets/register/person.png');
+			width: 48px;
+			background-repeat: no-repeat;
+			height: 37px;
+			position: absolute;
+			margin-left: -1px;
+		}
+	}
+	div:nth-child(3) {
+
+		label {
+			display: inline-block;
+			background-image: url('../assets/register/envelope.png');
+			width: 48px;
+			background-repeat: no-repeat;
+			height: 37px;
+			position: absolute;
+			margin-left: -1px;
+		}
+	}
+
+	div:nth-child(4) {
+
+		label {
+			display: inline-block;
+			background-image: url('../assets/register/lock.png');
+			width: 48px;
+			background-repeat: no-repeat;
+			height: 37px;
+			position: absolute;
+			margin-left: -1px;
+		}
+	}
+}
+
+.register-login {
+	div:nth-child(2) {
+
+		label {
+			background-image: url('../assets/register/envelope.png');
+		}
+	}
+	div:nth-child(3) {
+
+		label {
+			background-image: url('../assets/register/lock.png');
+		}
+	}
+}
+
+.main-error-login, .main-error-register, .main-info {
+	color: $red;
+	font-family: piston;
+	position: absolute;
+	bottom: 22px;
+	font-size: 1.7em;
+	text-shadow: rgb(255, 255, 255) 1px 1px 0;
+}
+
+.main-info {
+	color: $blue;
+}
+
+legend {
+	color: $red;
+	font-family: piston;
+	font-size: 3em;
+	text-shadow: rgb(255, 255, 255) 1px 1px 0;
+	margin-bottom: 25px;
+}
+
+.offline {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 1.5px 1.5px 3px 0px rgba(50, 50, 50, 0.50);
+	padding: 20px;
+
+	p {
+		text-align: center;
+		padding-top: 3px;
+		color: $red;
+		font-family: piston;
+		font-size: 3em;
+		text-shadow: rgb(255, 255, 255) 1px 1px 0;
+	}
+}

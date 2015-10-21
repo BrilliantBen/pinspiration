@@ -1,0 +1,176 @@
+
+.addit {
+	h2 {
+		position: relative;
+		top: 60px;
+		margin-bottom: 40px;
+	}
+
+	.register-client, .register-login  {
+		margin-left: 7.3vw;
+		padding: 0;
+
+		.quote {
+
+			label {
+				margin-top: 15px;
+
+				font-family: piston;
+				font-size: 2.3em;
+				text-shadow: rgb(255, 255, 255) 1px 1px 0;
+				color: $blue;
+				background-image: none;
+				width: inherit;
+				height: inherit;
+				position: relative;
+				margin-bottom: 20px;
+			}
+		}
+
+		input[type=submit] {
+			background-image: url('../assets/add/upload.jpg');
+		}
+
+		input[type="file"]{
+			background: none;
+			border: 1px solid red;
+			width: 78px;
+			height: 78px;
+			position: absolute;
+			margin-left: -80px;
+			margin-top: 20px;
+			opacity: 0;
+
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		.placeholder {
+			background-image: url('../assets/add/plus.png');
+			width: 78px;
+			height: 78px;
+			display: inline-block;
+			position: relative;
+			margin-bottom: 40px;
+			margin-top: 40px;
+		}
+	}
+
+	ul {
+		margin-top: -40px;
+		background-color: #ebebeb;
+		width: 100%;
+		display: table;
+
+		li {
+
+			text-align: center;
+			height: 60px;
+			display: inline-block;
+			color: $red;
+			font-family: piston;
+			font-size: 3em;
+			text-shadow: rgb(255, 255, 255) 1px 1px 0;
+			vertical-align: middle;
+			border-right: 3px solid white;
+			padding: 10px;
+
+			&:hover {
+				background-color: #e1dede;
+				cursor: pointer;
+			}
+
+			&:last-child {
+				border-right: none;
+
+			}
+
+			img {
+				position: relative;
+				top: 5px;
+
+			}
+
+			p {
+
+				display: inline;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+.add-things {
+
+	position: relative;
+	top: 100px;
+	padding-right:0;
+}
+
+.add-nav {
+
+	ul {
+		margin-top: -20px;
+		border-radius: 5px;
+	}
+}
+
+.padding {
+	padding: 20px;
+	padding-top: 0;
+	padding-bottom: 50px;
+}
+
+.imageupload {
+	div:first-child {
+		text-align: center;
+	}
+
+	div:nth-child(2){
+		text-align: center;
+		margin-bottom: 40px;
+	}
+}
+
+form {
+
+	input[type="text"].imagename-input-add {
+		text-align: center;
+		width: 60%;
+		padding: 0;
+	}
+}
+
+.list {
+	input[type="text"]{
+		padding-left: 20px;
+	}
+
+	input[type="submit"]{
+		margin-bottom: 25px;
+	}
+
+	legend {
+		color: $blue;
+		margin-left: 20px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+	div:nth-child(7){
+		margin-bottom: 40px;
+	}
+}
+
+.quote {
+
+	input[type="text"]{
+		text-align: center;
+
+		padding: 0;
+	}
+
+}
+

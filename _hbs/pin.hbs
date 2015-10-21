@@ -1,0 +1,41 @@
+ <li>
+
+ 	{{#if_eq type "quote"}}
+ 	<h1 class="title">By {{author}}</h1>
+ 	<div>
+ 		"{{content}}"
+ 	</div>
+ 	<input type="text" name="" value="{{content}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden"/>
+ 	<a href="" class="edit">edit</a>
+
+ 	{{/if_eq}}
+
+ 	{{#if_eq type "list"}}
+ 	<h1 class="title">Your list!</h1>
+ 	<div>
+ 		<ul class="inception">
+ 			{{formatList content}}
+ 		</ul>
+ 	</div>
+ 	<input type="text" name="" value="{{content}}" class="hidden"/>
+
+ 	{{/if_eq}}
+
+ 	{{#if_eq type "imageupload"}}
+ 	<h1 class="title">{{name content}}</h1>
+ 	<div class="row">
+ 		<picture>
+ 			<img src="uploads/images/large_{{content}}" alt="{{content}}" class="popup col-xs-12 col-sm-12 col-md-12 col-lg-12">
+ 		</picture>
+ 	</div>
+
+ 	{{/if_eq}}
+
+ 	<a href="" class="delete">delete</a>
+ </li>
+
+
+
+
+
+

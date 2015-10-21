@@ -1,0 +1,116 @@
+header.top {
+	@include clearfix;
+	height: 100px;
+}
+
+.logo {
+	margin-top: 25px;
+
+	float: left;
+
+	span {
+		display: none;
+	}
+
+	a {
+		position: relative;
+		z-index: -1;
+		display: inline-block;
+		background-image: url('../assets/header/logo.jpg');
+		width: 158px;
+		height: 44px;
+	}
+}
+
+.nav {
+	top: 25px;
+	float: right;
+	position: relative;
+	text-align: center;
+	transition: 0.5s;
+
+	li:first-of-type, .addpin {
+		p {
+			color: $red;
+		}
+
+	}
+
+	li:only-of-type, li:last-of-type{
+		p {
+			color: $blue;
+		}
+	}
+
+	p {
+		font-family: piston;
+		font-size: 1.968em;
+		float: right;
+		margin: 15px 0 0 5px;
+		text-shadow: rgb(255, 255, 255) 1px 1px 0;
+	}
+
+	li {
+
+		float: left;
+		margin-left: 50px;
+		transition: 0.2s;
+
+			&:hover{
+			cursor: pointer;
+			opacity: 0.5;
+			// transition: 0.2s;
+		}
+	}
+
+	img {
+		transition: 0.15s;
+	}
+
+	.center {
+		height:46px;
+		display:table-cell;
+		vertical-align : middle;
+	}
+
+}
+
+.logout {
+	font-family: piston;
+	font-size: 1.968em;
+	transition: 0.2s;
+	position: relative;
+	top: 2px;
+	text-shadow: rgb(255, 255, 255) 1px 1px 0;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.error1, input[type="text"].imagename-input-add.error1 {
+	border: 1px solid red;
+	border-radius: 5px;
+
+}
+
+.list {
+	input[type="text"].error1 {
+		border: 1px solid red;
+		border-radius: 5px;
+	}
+}
+
+.quote {
+	input[type="text"].error1 {
+		border: 1px solid red;
+		border-radius: 5px;
+	}
+}
+
+.selected{
+	background-color: #e1dede;
+}
+
+
+

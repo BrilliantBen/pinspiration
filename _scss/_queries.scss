@@ -1,0 +1,158 @@
+@media (max-width: $screen-md-min) {
+
+	h2 {
+		p {
+			font-size: 2.4vw;
+		}
+	}
+
+
+	legend {
+		font-size: 2.2em;
+	}
+}
+
+@media (max-width: $screen-sm-min) {
+
+	.nav {
+		transition: 0.5s;
+
+		p {
+			display: none;
+		}
+
+		li {
+			margin-left: 25px;
+		}
+	}
+
+	.register-client, .register-login  {
+		margin-left: 7.8vw;
+	}
+}
+
+@media (min-width: 990px) {
+
+	.pins {
+		-moz-column-width: 25em;
+		-webkit-column-width: 25em;
+	}
+}
+
+@media (max-width: 850px) {
+
+	h2 {
+		p {
+			font-size: 2em;
+		}
+	}
+
+	.text {
+		article {
+
+			h1 {
+				font-size: 2em;
+			}
+		}
+	}
+	aside {
+		font-size: 1.5em;
+
+	}
+}
+
+@media (max-width:620px) {
+
+	h2 {
+		p {
+			font-size: 2.4em;
+		}
+	}
+
+	.text {
+		article {
+
+			h1 {
+				font-size: 2.4em;
+			}
+		}
+	}
+
+}
+
+@media (max-width:450px) {
+
+	h2 {
+		p {
+			font-size: 2em;
+		}
+	}
+
+	.text {
+		article {
+
+			h1 {
+				font-size: 2em;
+			}
+		}
+	}
+
+	header + section.log, header+section.filter {
+
+		img {
+			top: 30px;
+			transition: 1s;
+			margin-bottom: 35px;
+		}
+	}
+
+	.users {
+		transition: 1s;
+		top: 50px;
+	}
+
+
+	.text {
+
+		top: 90px;
+		transition: 1s;
+	}
+
+	.logout {
+		font-size: 1.568em;
+		left: 10px;
+	}
+
+}
+
+
+@media (min-width: 1300px) {
+
+	h2 {
+		p {
+			font-size: 3.4em;
+		}
+	}
+
+	aside {
+		font-size: 2.8em;
+
+	}
+
+	.text {
+		article {
+
+			h1 {
+				font-size: 3.4em;
+			}
+		}
+	}
+}
+
+@media (max-width: 390px) {
+	.nav {
+		li:last-child {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Komen",
+  "version": "1.0.0",
+  "description": "Devine Major Aterlier 4",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "hbsfy"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-buffer": "^0.0.2",
+    "gulp-compass": "^2.0.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "handlebars": "^3.0.0",
+    "hbsfy": "^2.2.1",
+    "jshint-stylish": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "komen"
+  ],
+  "author": "Benoit Schrijnemakers en Gilles Boom",
+  "license": "ISC"
+}

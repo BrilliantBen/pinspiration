@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'bitterbold';
+    src: url('bitterbold.eot');
+    src: url('bitterbold.eot?#iefix') format('embedded-opentype'),
+         url('bitterbold.woff2') format('woff2'),
+         url('bitterbold.woff') format('woff'),
+         url('bitterbold.ttf') format('truetype'),
+         url('bitterbold.svg#bitterbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bitter';
+    src: url('bitter.eot');
+    src: url('bitter.eot?#iefix') format('embedded-opentype'),
+         url('bitter.woff2') format('woff2'),
+         url('bitter.woff') format('woff'),
+         url('bitter.ttf') format('truetype'),
+         url('bitter.svg#bitterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

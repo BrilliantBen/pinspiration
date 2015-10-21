@@ -1,0 +1,22 @@
+$blue: #5272bb;
+$cream: #fcfafa;
+$red: #dc4649;
+$gray: #ebebeb;
+
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
+@import "compass/utilities/general/clearfix";
+@import "compass/reset";
+@import "start";
+@import "quote";
+@import "forms";
+@import "text";
+@import "add";
+@import "home";
+@import "queries";
+
+
+
+

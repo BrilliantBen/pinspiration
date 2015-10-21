@@ -1,0 +1,138 @@
+.filter {
+	p {
+		position: relative;
+		top: 50px;
+		margin-bottom: 70px;
+	}
+
+	input:not([type=submit]) {
+		background-color: white;
+		border: 0;
+		border-radius: 9px;
+		height: 37px;
+		color: $red;
+		font-family: bitter;
+		font-size: 1.6em;
+		font-weight: bold;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	ul.tag {
+		color: white;
+		margin-top: 30px;
+
+		li {
+			margin-bottom: 10px;
+		}
+
+		button {
+			border: none;
+			height: 30px;
+			border-radius: 5px;
+			background-color: $blue;
+			font-family: bitter;
+			font-size: 1.6em;
+			letter-spacing: 0.05em;
+			font-weight: bold;
+
+			&:hover {
+				background-color: #30509b;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.pins {
+	margin-top: 50px;
+	font-size: 1.5em;
+	margin-bottom: 50px;
+	-moz-column-width: 13em;
+	-webkit-column-width: 13em;
+
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+	margin-left: 1px;
+	position: relative;
+
+	li {
+		font-family: bitter;
+		font-size: 1.1em;
+		line-height: 1.2em;
+		letter-spacing: 0.05em;
+		background-color: white;
+		border-radius: 5px;
+		box-shadow: 1.5px 1.5px 3px 0px rgba(50, 50, 50, 0.50);
+		padding: 20px;
+		margin-bottom: 20px;
+		display: inline-block;
+		width: 100%;
+
+		h1 {
+				line-height: 1em;
+		}
+
+		div{
+			padding: 10px;
+			word-wrap: break-word;
+			white-space: normal;
+			background-color: $gray;
+		}
+	}
+}
+
+.inception {
+
+	ul {
+		list-style-type: disc;
+	}
+
+	li {
+		background: transparent;
+		box-shadow: none;
+		display: list-item;
+		background-color: #f6f6f6;
+	}
+}
+
+.title, .delete, .edit {
+	font-family: piston;
+	font-size: 1.7em;
+	text-align: center;
+	color: $red;
+	margin: 0 0 15px 0;
+	text-shadow: rgb(255, 255, 255) 1px 1px 0;
+
+	&:visited, &:hover, &:focus, &:active {
+		text-decoration: none;
+	}
+}
+
+.delete, .edit {
+	color: $blue;
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-size: 1em;
+	float: right;
+}
+
+.edit {
+	float: left;
+}
+
+.pop-image {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 2;
+
+	img {
+		display:block;
+		position:absolute;
+		top:17vh;
+		margin-top:"negative margin based on half of image height";
+	}
+}
+
